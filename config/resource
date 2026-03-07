@@ -12,7 +12,7 @@
     "docker-project": {
         "projects": [
             {
-                "name": "mslx-stack",
+                "name": "mslx-daemon-app",
                 "path": "docker"
             }
         ]
