@@ -1,0 +1,28 @@
+[
+    {
+        "stepTitle": "安装必看提示",
+        "items": [
+            {
+                "type": "tips",
+                "helpText": "🎉 欢迎安装 <strong>MSLX (Minecraft Server Launcher X)</strong> 服务器管理面板！<br><br>⚠️ <strong>账号密码获取：</strong><br>初始用户密码请在飞牛文件管理器的应用数据目录中，进入 <strong>MSLX</strong> 文件夹，查看「初始登录凭证.txt」文件。<br><br>🔌 <strong>端口与访问说明：</strong><br>面板默认运行在 NAS 的 1027 端口。为了保证数据安全与良好的访问体验，强烈建议您自行配置反向代理（如 Nginx Proxy Manager 等）来实现 SSL/HTTPS 加密访问。<br><br>🌐 <strong>相关链接：</strong><br><a href=\"https://mslx.mslmc.cn/\" target=\"_blank\">官网文档</a> ｜ <a href=\"https://mslx.mslmc.cn/article/qq/\" target=\"_blank\">QQ 交流群</a> ｜ <a href=\"https://mslx.mslmc.cn/eula/\" target=\"_blank\">阅读《MSLX 最终用户许可协议(EULA)》</a>"
+            },
+            {
+                "type": "checkbox",
+                "field": "wizard_agree_eula",
+                "label": "使用协议",
+                "options": [
+                    {
+                        "label": "我已阅读并同意上述《MSLX 最终用户许可协议(EULA)》",
+                        "value": "agreed"
+                    }
+                ],
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "⚠️ 必须勾选同意 EULA 协议才能安装 MSLX"
+                    }
+                ]
+            }
+        ]
+    }
+]
