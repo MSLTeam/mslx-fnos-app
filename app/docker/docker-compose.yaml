@@ -11,6 +11,9 @@ services:
       - "25565-25585:25565-25585/tcp"
       - "25565-25585:25565-25585/udp"
       - "19132-19142:19132-19142/udp"
+      
+    extra_hosts:
+      - "host.mslx.internal:host-gateway"
     
     volumes:
       - ${TRIM_DATA_SHARE_PATHS}:/app/DaemonData
