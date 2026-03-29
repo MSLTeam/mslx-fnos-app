@@ -12,3 +12,4 @@ desktop_uidir         = ui
 desktop_applaunchname = MSLX.Application
 service_port          = 1027
 checkport             = true
+changelog             = 更新日志请见: mslx.mslmc.cn 或 应用内“关于”页面
