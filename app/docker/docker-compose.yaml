@@ -16,6 +16,7 @@ services:
       - "host.mslx.internal:host-gateway"
     
     volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
       - ${TRIM_DATA_SHARE_PATHS}:/app/DaemonData
     
     environment:
